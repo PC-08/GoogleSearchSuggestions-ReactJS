@@ -1,0 +1,61 @@
+/* Write your CSS here */
+.bg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.img {
+  width: 350px;
+  margin-bottom: 40px;
+}
+
+.img-search {
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+}
+
+.sc {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  background-color: white;
+  border-radius: 15px;
+  outline: none;
+  cursor: pointer;
+}
+
+.input {
+  padding: 10px;
+  border: 0px solid white;
+  width: 400px;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  font-size: 18px;
+  color: #64748b;
+}
+
+.ulist {
+  margin: 0;
+}
+
+@media (max-width: 576px) {
+  .img {
+    width: 150px;
+  }
+
+  .sc {
+    width: 350px;
+  }
+
+  .sc2 {
+    display: flex;
+    align-items: center;
+  }
+}
